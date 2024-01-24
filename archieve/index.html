@@ -1,0 +1,53 @@
+<head>
+    <meta charset="UTF-8">
+    <script src="/js/tags_list.js"></script>
+    <script src="/js/archieve_list.js"></script>
+    <script src="/js/daily.js"></script>
+    <script src="/js/basic.js"></script>
+    <link rel="icon" type="images/png" sizes="32x32" href="/images/favicon32.png">
+    <link rel="icon" type="images/png" sizes="32x32" href="/images/favicon16.png">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<div class='bodybody'>
+    <script src='/js/load_theme.js'></script>
+    <script>document.WriteSideBar(document.querySelector('.bodybody'),document.Title,document.Funval);</script>
+    <div class='post-block'>
+        <div class='content-block' id='post'>
+            <script>
+                let data = document.querySelector('#post');
+                let AddText = function (ttext, eletag, tstyle) {
+                    let Ttext = document.createElement(eletag);
+                    Ttext.textContent = ttext;
+                    if (tstyle !== undefined) Ttext.style = tstyle;
+                    let TTtext = document.createElement('center');
+                    TTtext.appendChild(Ttext);
+                    data.appendChild(TTtext);
+                }
+                AddText('文章一览', 'h1');
+                if (document.Type !== undefined)
+                    AddText('分类为：' + document.TYPENAME[document.Type], 'h3');
+                if (document.Tags.length !== 0) {
+                    let Taginfo = '具有标签：';
+                    for (let i = 0; i < document.Tags.length; i = i + 1) {
+                        if (tags_chinese[document.Tags[i]] !== undefined)
+                            Taginfo += tags_chinese[document.Tags[i]];
+                        else Taginfo += '不明标签';
+                        if (i !== document.Tags.length - 1) Taginfo += '，';
+                    }
+                    AddText(Taginfo, 'h3');
+                }
+                if (document.Sortby)
+                    AddText('排序方式：' + sort_text[document.Sortby], 'h3');
+                if (document.Searchfor) {
+                    AddText('正在搜索子序列：' + document.Searchfor, 'h3');
+                }
+                AddText('第 ' + (document.Page + 1) + ' 页', 'h3');
+            </script>
+            <script>WriteSearchInput(document.querySelector('#post'));</script>
+            <script>document.WriteArchieve(document.querySelector('#post'));</script>
+            <script>WritePageButton(document.querySelector('#post'),
+                document.post_count,document.post_per_page);</script>
+        </div>
+    </div>
+</div>

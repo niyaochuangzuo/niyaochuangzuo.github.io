@@ -1,0 +1,70 @@
+见 https://xyix.github.io/。这里记录的是自 2021/4/14 以来的博文更新时间轴。
+
+- 2021/4/14：更新一篇博文[支配](https://xyix.github.io/posts/?&page=3&postname=luogu-7520)。[友链](https://xyix.github.io/posts/?&page=0&postname=hello-world)中增加了 cly_none 的博客链。
+- 2021/4/15：更新两篇博文 [Roads in Yusland](https://xyix.github.io/posts/?&page=3&postname=cf-671-d) 和 [Unknown#1](https://xyix.github.io/posts/?&page=3&postname=unknown-1)。
+- 2021/4/16：补充了[保序回归](https://xyix.github.io/posts/?&page=1&postname=isotonic-regression)中 HNOI2019 序列的代码。重制了 [k 短路](https://xyix.github.io/posts/?&page=2&postname=k-th-shortest-path)。修了[反演魔术](https://xyix.github.io/posts/?&page=2&postname=exc-inc)的一个小锅。
+- 2021/4/17：更新了和论文《浅谈线性代数与图论的关系》相关的两篇博文：[这个](https://xyix.github.io/posts/?&postname=loj-6759)和[这个](https://xyix.github.io/posts/?&postname=linear-algebra-in-graph-theory)。
+- 2021/4/19：更新一篇博文[某少女附中的体育课](https://xyix.github.io/posts/?&page=3&postname=loj-548)。
+- 2021/4/20：更新一篇博文[新年的Dog划分](https://xyix.github.io/posts/?&page=3&postname=uoj-461)。
+- 2021/4/21：更新两篇博文[变色龙](https://xyix.github.io/posts/?&page=3&postname=uoj-504)，[Wide Swap](https://xyix.github.io/posts/?&page=3&postname=agc-001-f)。
+- 2021/4/22：把博文 [det = exp trace ln 和矩阵树定理和多元拉反](https://xyix.github.io/posts/?&page=2&postname=det-eq-exp-trace-log) 的表述变得更明确了一些。
+- 2021/4/24：重制了 [ZJOI2018 树](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-4500-ex)。
+- 2021/4/25：更新一篇博文 [Kuroni the Private Tutor](https://xyix.github.io/posts/?&sortby=last_modi&postname=cf-1305-h)。
+- 2021/4/26：更新两篇博文 [det 又等于 exp trace ln 了](https://xyix.github.io/posts/?&sortby=last_modi&postname=det-eq-exp-trace-log-ex)，[UR#20 题解](https://xyix.github.io/posts/?&sortby=last_modi&postname=uoj-R-20)。
+- 2021/4/27：更新一篇博文 [UNR#4 题解](https://xyix.github.io/posts/?&sortby=last_modi&postname=uoj-NR-4)。
+- 2021/4/28：更新 5 篇博文 [Binary Code](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-6965)，[Metal Processing Plant](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-6898)，[Tours](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-6914)，[Star Trek](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-6803)，[Indiana Jones and the Uniform Cave](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-7123)。
+- 2021/4/29：更新一篇博文[某科学的动态仙人掌](https://xyix.github.io/posts/?&sortby=last_modi&postname=thuwc-2020-1-3)。
+- 2021/4/30：更新三篇博文 [Showing Off](https://xyix.github.io/posts/?&sortby=last_modi&postname=cf-1416-f)，[Breadboard Capacity](https://xyix.github.io/posts/?&sortby=last_modi&postname=cf-1368-h)，[某科学的动态仙人掌](https://xyix.github.io/posts/?&sortby=last_modi&postname=thuwc-2020-1-3)。
+- 2021/5/1：更新一篇博文[遗迹](https://xyix.github.io/posts/?&sortby=last_modi&postname=uoj-506)。
+- 2021/5/3：更新一篇博文[男性增加支配树题分数的技巧](https://xyix.github.io/posts/?&sortby=last_modi&postname=domination-tree)，顺便更新了证明折叠模块，主要影响到了 [bpp1](https://xyix.github.io/posts/?&sortby=last_modi&postname=bpp) 和 [bpp2](https://xyix.github.io/posts/?&sortby=last_modi&postname=bpp2)。
+- 2021/5/5：更新一篇博文[不知道题目名](https://xyix.github.io/posts/?&sortby=last_modi&postname=thuwc-2020-2-2)。
+- 2021/5/6：给 [k 短路及其延伸](https://xyix.github.io/posts/?&sortby=last_modi&postname=k-th-shortest-path) 补了一道例题。发现博文 [Binary Code](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-6965) 有锅就修了一下。给三篇博文 [Tours](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-6914) 和 [遗迹](https://xyix.github.io/posts/?&sortby=last_modi&postname=uoj-506) 和 [Wide Swap](https://xyix.github.io/posts/?&page=3&postname=agc-001-f) 补了代码。
+- 2021/7/6：大浩劫，gitee 把本博客封了，迁移至 github。由于一些失误，inf 篇博文的"修改时间"均被重置到了本日。
+- 2021/7/8：更大的浩劫，我手贱把 md 源码在本地全删了，结果只能从 github 上之前的版本拉一份回来，几乎所有博文的"修改时间"均被重置到了本日。好消息是，在这次乱搞之后 github 不再因为我的博客报 warning 而爆破我的邮箱了。更新一篇博文[雨林跳跃](https://xyix.github.io/posts/?&sortby=id&postname=luogu-7599)。
+- 2021/7/9：修了一下[重复](https://xyix.github.io/posts/?&sortby=id&postname=luogu-5404)的表达。更新一篇博文[太阳神的宴会](https://xyix.github.io/posts/?&sortby=id&postname=uoj-595)。宣布废弃[字符串题集](https://xyix.github.io/posts/?&tags=pigeon&postname=string-prob)。
+- 2021/7/10：更新一篇博文 [IOI2021 题解](https://xyix.github.io/posts/?&sortby=id&postname=ioi2021)。
+- 2021/7/13：更新一篇博文 [LNR#2 题解](https://xyix.github.io/posts/?&sortby=id&postname=loj-NR-2)。其实四月底就写了一半了，现在才补齐。
+- 2021/7/14：更新两篇博文 [Terytoria](https://xyix.github.io/posts/?&sortby=id&postname=loj-3220) 和 [怪兽游戏](https://xyix.github.io/posts/?&sortby=id&postname=loj-3522)。
+- 2021/7/15：给 [变色龙](https://xyix.github.io/posts/?&sortby=last_modi&postname=uoj-504) 和 [简单算术](https://xyix.github.io/posts/?&sortby=last_modi&postname=loj-NR-2) 补了代码。
+- 2021/7/16：更新两篇博文 [Looping Labyrinth](https://xyix.github.io/posts/?&sortby=id&postname=luogu-4356) 和 [Horrible Cycles](https://xyix.github.io/posts/?&sortby=id&postname=cf-gym-102538-h)。Looping Labyrinth 有希望入选我最喜欢的 xyix.github.io 博文。
+- 2021/7/20：更新一篇博文 [Dance Robot Dance](https://xyix.github.io/posts/?&sortby=id&postname=nytoi-2021-d)。
+- 2021/7/21：水了一篇博文 [Median Replace Hard](https://xyix.github.io/posts/?&sortby=id&postname=cf-gym-102586-j)。
+- 2021/7/22：更新一篇博文 [UNR#5 题解](https://xyix.github.io/posts/?&sortby=id&postname=uoj-NR-5)。
+- 2021/7/26：更新一篇博文 [XOR and distance](https://xyix.github.io/posts/?&sortby=id&postname=cf-1553-h)。
+- 2021/7/27：更新一篇博文 [Yet Another Linear Algebra Problem](https://xyix.github.io/posts/?&sortby=id&postname=loj-3409)。
+- 2021/7/28：因为经常被问到一些关于多项式的问题，所以更新一篇博文 [多项式杂谈](https://xyix.github.io/posts/?&sortby=id&postname=polynomial-random-talk) 作为统一回复。
+- 2021/7/29：更新一篇博文 [带加强和多项木](https://xyix.github.io/posts/?&sortby=id&postname=loj-3398)。
+- 2021/7/30：给 ZJOI2019 D2T3 补了代码。
+- 2021/8/2：更新一篇博文 [忽略 2004](https://xyix.github.io/posts/?&sortby=id&postname=loj-6778)。
+- 2021/8/3：更新一篇博文 [小修和小栋生♂成树](https://xyix.github.io/posts/?&sortby=id&postname=loj-2488)。
+- 2021/8/4：更新一篇博文 [Bitwise Magic](https://xyix.github.io/posts/?&sortby=id&postname=cf-1408-i)。
+- 2021/8/5：更新一篇博文 [O(n^3) 矩阵特征多项式计算笔记](https://xyix.github.io/posts/?&sortby=id&postname=how-to-calc-chara-poly)。
+- 2021/8/6：更新一篇博文 [Tangjz 的背包](https://xyix.github.io/posts/?&sortby=id&postname=loj-562)。
+- 2021/8/7：更新一篇博文 [大鱼洽水](https://xyix.github.io/posts/?&sortby=id&postname=loj-3391)。🐟大，我好喜欢你啊，为了你，我要做大鱼洽水大鱼治水大鱼划水🥰
+- 2021/8/9：更新两篇博文 [大鱼治水](https://xyix.github.io/posts/?&sortby=id&postname=loj-3390) 和 [停车问题到树的双射](https://xyix.github.io/posts/?&sortby=id&postname=parking-and-tree)。发现自己看不懂大鱼划水的题解。
+- 2021/8/10：更新一篇博文 [Hypercube](https://xyix.github.io/posts/?&sortby=id&postname=luogu-6980)。
+- 2021/8/12：更新 [Tangjz 的背包](https://xyix.github.io/posts/?&sortby=id&postname=loj-562) 课后思考题的解答，冷静了一下发现是个 sb 题。~~（之前把 $r!_q$ 幻视成 $r!$ 了）~~
+- 2021/8/13：更新一篇博文 [更更炫酷的反演魔术](https://xyix.github.io/posts/?&sortby=id&postname=exc-inc-ex)！越来越抽象了。应该说这回我们真的探到了容斥的本质。（不过对利用容斥解题没有什么意义（悲））
+- 2021/8/21：更新一篇博文 [古老的机器](https://xyix.github.io/posts/?&sortby=id&postname=uoj-616)。
+- 2021/8/22：更新一篇博文 [克莱茵蓝彼岸花](https://xyix.github.io/posts/?&sortby=id&postname=loj-6786)。逆向工程大胜利。
+- 2021/8/23：[近期嘴巴杂记](https://xyix.github.io/posts/?&sortby=id&postname=recent-kouhu) 开始更新；[毛营游记](https://xyix.github.io/posts/?page=0&postname=ptz-camp)（visible now!）开始更新。
+- 2021/8/24：更新一篇博文 [回忆半在线/在线卷积](https://xyix.github.io/posts/?&sortby=id&postname=online-convolution)。
+- 2021/8/26：更新一篇博文 [Help Shrek and Donkey](https://xyix.github.io/posts/?&sortby=id&postname=cf-98-e)。
+- 2021/8/27：更新一篇博文 [Graph](https://xyix.github.io/posts/?&sortby=id&postname=luogu-7054)。
+- 2021/8/31：毛营结束；更新一篇博文 [Goldberg Machine 2](https://xyix.github.io/posts/?&sortby=id&postname=ptz-camp-7-a)（visible now!）。
+- 2021/9/1 ~ 2021/9/30：文化课期间，文章产出较少。~~其实合起来放一条是因为我忘了每篇是什么时候写的了。~~有 [区间本质不同回文子串计数](https://xyix.github.io/posts/?&sortby=id&postname=soj-458)、[Random Shuffle](https://xyix.github.io/posts/?&sortby=id&postname=cf-gym-103069-c)、[Prof. Pang's sequence](https://xyix.github.io/posts/?&sortby=id&postname=cf-gym-103069-f)、[钩长公式的一个概率论证明](https://xyix.github.io/posts/?&sortby=id&postname=hook-formula-proof)、[保镖](https://xyix.github.io/posts/?&sortby=id&postname=luogu-4502)、[Rainbow Triples](https://xyix.github.io/posts/?&sortby=id&postname=cf-1408-h)。
+- 2021/10/7：更新一篇博文 [Organizing a Race](https://xyix.github.io/posts/?&sortby=id&postname=cf-671-e)。
+- 2021/10/11：更新一篇博文 [Black Radius](https://xyix.github.io/posts/?&sortby=id&postname=agc-008-f)。
+- 2021/10/12：更新一篇博文 [Moke 的游戏](https://xyix.github.io/posts/?&sortby=id&postname=luogu-7896)。给题。
+- 2021/10/13：更新一篇博文 [Balanced Distribution](https://xyix.github.io/posts/?&sortby=id&postname=cf-1237-g)。给[《再谈 Binomial Sum》通俗演义](https://xyix.github.io/posts/?&sortby=last_modi&postname=binomial-sum)加了一个例题。这个鬼题推+调了我一个下午。
+- 2021/10/14：更新一篇博文[移球游戏](https://xyix.github.io/posts/?&sortby=last_modi&postname=luogu-7115)。神 之 降 临。
+- 2021/10/15：更新一篇博文[微信步数](https://xyix.github.io/posts/?&sortby=id&postname=luogu-7116)。
+- 2021/10/16：更新一篇博文[广义二项/指数级数？广义卡塔兰/凯莱数！](https://xyix.github.io/posts/?&sortby=id&postname=generalized-binomial-exponential)好像非常有趣。
+- 2021/10/19：更新两篇博文[CFR#749 部分题解](https://xyix.github.io/posts/?&sortby=id&postname=cf-1586)、[300iq Contest 2 部分题解](https://xyix.github.io/posts/?&sortby=id&postname=cf-gym-102331)。
+- 2021/10/20 ~ 2021/11/19：准备 NOIP。
+- - 口胡了好几场比赛：[JOI Open 2018](https://xyix.github.io/posts/?&sortby=id&postname=loj-3538-3541)，[AGC045](https://xyix.github.io/posts/?&sortby=id&postname=agc-045)，[AGC044](https://xyix.github.io/posts/?&sortby=id&postname=agc-044)，[AGC045](https://xyix.github.io/posts/?&sortby=id&postname=agc-055)。
+  - 开始了 XXX 随机做项目：[AGC 随机做](https://xyix.github.io/posts/?&sortby=id&postname=agc-mis)，[试图取并 command_block 记](https://xyix.github.io/posts/?&sortby=id&postname=command-block)，[ARC 随机做](https://xyix.github.io/posts/?&sortby=id&postname=arc-mis)，[OI-transit 随机做](https://xyix.github.io/posts/?&sortby=id&postname=oi-transit-mis)。
+  - 更新了两道 NYTOI：[NYTOI G 月光ミュージック](https://xyix.github.io/posts/?&sortby=id&postname=nytoi-2021-g)，[（原）NYTOI C サークレット](https://xyix.github.io/posts/?&sortby=id&postname=nytoi-2021-c-old)。
+  - 做了一堆杂题：[Two Pieces](https://xyix.github.io/posts/?&sortby=id&postname=agc-040-f)，[stcm](https://xyix.github.io/posts/?&sortby=id&postname=luogu-7124)，[Teoreticar](https://xyix.github.io/posts/?&sortby=id&postname=loj-3126)，[ZS Shuffles Cards](https://xyix.github.io/posts/?&sortby=id&postname=cf-1392-h)，[Permutation and noitatumreP](https://xyix.github.io/posts/?&sortby=id&postname=ptz-gxx-round-5-h)，[多边形](https://xyix.github.io/posts/?&sortby=id&postname=luogu-5288)，[Island Manager](https://xyix.github.io/posts/?&sortby=id&postname=loj-3407)，[Cheat and Win](https://xyix.github.io/posts/?&sortby=id&postname=cf-1439-e)，[地牢 3](https://xyix.github.io/posts/?&sortby=id&postname=loj-3472)，[bt](https://xyix.github.io/posts/?&sortby=id&postname=loj-6215)，[Flop Sorting](https://xyix.github.io/posts/?&sortby=id&postname=loj-3519)。
+  - 开始了[行动代号：APOTHEOSIS](https://xyix.github.io/posts/?&sortby=id&postname=code-name-apotheosis)。***命运已定***。
+
