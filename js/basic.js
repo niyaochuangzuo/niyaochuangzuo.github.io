@@ -197,13 +197,12 @@
         SideBarTitle.className = 'title';
             let SideBarIcon = win.createElement('img');
             SideBarIcon.src = '/images/scp-comb.png';
-            if (win.isInside) SideBarIcon.src = '/images/scp-comb-2.png';
             SideBarIcon.alt = '';
             SideBarIcon.style = 'width: 120px';
             SideBarTitle.appendChild(SideBarIcon);
 
             let SideBarTitleContent1 = win.createElement('h2');
-            SideBarTitleContent1.textContent = '基金会超常组合数学部';
+            SideBarTitleContent1.textContent = '你要创作';
             if (win.Funval === '41') 
                 SideBarTitleContent1.textContent = '数据结构分裂者';
             if (win.isInside) 
@@ -212,15 +211,8 @@
         
             let SCPblock = win.createElement('center');
             SCPblock.style = 'width: 70%';
-            if (win.Funval === '41') {
-                AddText(SCPblock, '数点', 'p');
-                AddText(SCPblock, '重构', 'p');
-                AddText(SCPblock, '剖分', 'p');
-            }
-            else if (win.isInside) {
-                AddText(SCPblock, '翻腾的记忆', 'p');
-                AddText(SCPblock, '奔涌的感情', 'p');
-                AddText(SCPblock, '万物皆有对偶', 'p');
+            if (win.isInside) {
+                AddText(SCPblock, '访问限制已解除。', 'p');
             }
             else {
                 AddText(SCPblock, 'Surprising', 'p');
@@ -251,10 +243,9 @@
         }
         write_link('回到首页', '/' + ezylanASearch(win.TrueSearch));
         write_link('文章一览', '/archieve/' + ezylanASearch(win.TrueSearch));
-        if (win.isInside === 0) {
-            write_link('标签一览', '/tags/' + ezylanASearch(win.TrueSearch));
-            write_link('一键清除 tag', location.pathname);
-        }
+        write_link('标签一览', '/tags/' + ezylanASearch(win.TrueSearch));
+        write_link('一键清除 tag', location.pathname);
+        
         let changecolor = location.pathname;
         if (win.ThemeColor === undefined || win.ThemeColor === 'Z')
             changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=N';
@@ -272,7 +263,7 @@
         write_link('更换主题颜色', changecolor);
         if (win.isInside === 0) {
             SideBarCon.appendChild(win.createElement('p'));
-            write_link('关于作者 & 友链', '/posts/?page=0&postname=hello-world');
+            write_link('中心页', '/posts/?page=0&postname=hello-world');
         }
         if (win.isInside) {
             changemode = location.pathname + ezylanASearch(win.TrueSearch) + '&funval=notoyasumi';
