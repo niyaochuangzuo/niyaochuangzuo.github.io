@@ -3,8 +3,8 @@
     let winbody = win.querySelector('body');
     if (win.ThemeColor === undefined || win.ThemeColor === '5') {
         if (win.isInside)
-            winbody.style='--main-color: #7f7f7f; --dark-main-color: #ffffff;';
-        else winbody.style='--main-color: #ffffff; --dark-main-color: #7f7f7f;';
+            winbody.style='--main-color: #7f7f7f; --dark-main-color: #000000;';
+        else winbody.style='--main-color: #000000; --dark-main-color: #7f7f7f;';
     }
     if (win.ThemeColor === '1') {
         if (win.isInside)
