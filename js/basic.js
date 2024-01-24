@@ -126,7 +126,7 @@
         location.replace(newloc);
     }
     if (localStorage.getItem('themecolor') === null || localStorage.getItem('themecolor') === undefined)
-        localStorage.setItem("themecolor", 'Z');
+        localStorage.setItem("themecolor", '5');
     win.ThemeColor = localStorage.getItem('themecolor');
 
     win.isInside = 0;
@@ -247,14 +247,14 @@
         write_link('一键清除 tag', location.pathname);
         
         let changecolor = location.pathname;
-        if (win.ThemeColor === undefined || win.ThemeColor === 'Z')
-            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=N';
-        if (win.ThemeColor === 'Y')
-            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=Z';
-        if (win.ThemeColor === 'X')
-            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=Y';
-        if (win.ThemeColor === 'N')
-            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=X';
+        if (win.ThemeColor === undefined || win.ThemeColor === '5')
+            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=1';
+        if (win.ThemeColor === '1')
+            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=2';
+        if (win.ThemeColor === '2')
+            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=3';
+        if (win.ThemeColor === '3')
+            changecolor += ezylanASearch(win.TrueSearch) + '&themecolor=5';
         if (win.Postname) {
             if (changecolor[changecolor.length - 1] === '/')
                 changecolor += '?postname=' + win.Postname;
@@ -605,57 +605,33 @@
         Blog.style.opacity = 1.0;
         Blog.frameBorder = 1;
         Blog.className = 'inline-blog';
-        if (postinfo.postid === '45') {
-            Blog.src = '/images/%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0%E5%92%8C%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0.pdf';
-            Blog.scrolling = "yes";
-            Blog.opacity = 1.0;
+        
+        dangerlist = []
+        for (tags in postinfo.tag)
+            if (['ero', 'suicide'].indexOf(postinfo.tag[tags]) != -1)
+                dangerlist[dangerlist.length] = postinfo.tag[tags];
+        
+        if (dangerlist.length == 0 || win.isInside) {
+            Blog.src = '/posts/posts/' + postinfo.post_name + ".html";
+            Blog.scrolling = "no";
             Blog.onload = function () {
-                Blog.style.height = document.body.offsetHeight * 0.8;
-            }
-        }
-        else if (postinfo.post_name === 'xj-404') {
-            Blog.src = 'https://scpsandboxcn.wikidot.com/xj-404';
-            Blog.scrolling = "yes";
-            Blog.opacity = 1.0;
-            Blog.onload = function () {
-                Blog.style.height = document.body.offsetHeight * 0.8;
-            }
-        }
-        else if (postinfo.post_name === 'xj-1998') {
-            Blog.src = 'https://scpsandboxcn.wikidot.com/xj-1998';
-            Blog.scrolling = "yes";
-            Blog.opacity = 1.0;
-            Blog.onload = function () {
-                Blog.style.height = document.body.offsetHeight * 0.8;
+                Blog.style.height = Blog.contentDocument.body.scrollHeight;
+                setInterval(()=>Blog.style.height = Blog.contentDocument.body.scrollHeight,200);
             }
         }
         else {
-            dangerlist = []
-            for (tags in postinfo.tag)
-                if (['ero', 'suicide'].indexOf(postinfo.tag[tags]) != -1)
-                    dangerlist[dangerlist.length] = postinfo.tag[tags];
-            
-            if (dangerlist.length == 0 || win.isInside) {
-                Blog.src = '/posts/posts/' + postinfo.post_name + ".html";
-                Blog.scrolling = "no";
-                Blog.onload = function () {
-                    Blog.style.height = Blog.contentDocument.body.scrollHeight;
-                    setInterval(()=>Blog.style.height = Blog.contentDocument.body.scrollHeight,200);
-                }
+            Blog.src = '/posts/posts/404-warn.html?postname=' + postinfo.post_name + '&warn=';
+            for (i in dangerlist) {
+                if (i != 0) Blog.src += '+';
+                Blog.src += dangerlist[i];
             }
-            else {
-                Blog.src = '/posts/posts/404-warn.html?postname=' + postinfo.post_name + '&warn=';
-                for (i in dangerlist) {
-                    if (i != 0) Blog.src += '+';
-                    Blog.src += dangerlist[i];
-                }
-                Blog.scrolling = "no";
-                Blog.onload = function () {
-                    Blog.style.height = Blog.contentDocument.body.scrollHeight;
-                    setInterval(()=>Blog.style.height = Blog.contentDocument.body.scrollHeight,200);
-                }
+            Blog.scrolling = "no";
+            Blog.onload = function () {
+                Blog.style.height = Blog.contentDocument.body.scrollHeight;
+                setInterval(()=>Blog.style.height = Blog.contentDocument.body.scrollHeight,200);
             }
         }
+        
         data.appendChild(Blog);
 
         let TTtext = document.createElement('h1');
